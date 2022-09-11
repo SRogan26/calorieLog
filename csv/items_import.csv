@@ -1,0 +1,542 @@
+item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
+31@ chocolate frosted donut,1, chocolate frosted donut,31,290,18,30,2,1
+45@#13 regular italian,2,#13 regular italian,45,690,27,65,45,2
+45@#17 regular philly,3,#17 regular philly,45,710,30,63,45,3
+70@1 burgers,4,1 burgers,70,360,28,0,24,4
+6@1 chicken strip,5,1 chicken strip,6,125,7.5,7.5,7,5
+31@1 chocolate donut,6,1 chocolate donut,31,290,18,30,2,6
+20@1 cookie,7,1 cookie,20,100,4.5,15,1,7
+72@1 cookie,8,1 cookie,72,100,4.5,15,1,8
+62@1 donut,9,1 donut,62,300,10,47,4,9
+70@1 franks,10,1 franks,70,240,20,4,11,10
+62@1 mochi donut,11,1 mochi donut,62,290,17,32,4,11
+23@1 serv pizz sauce,12,1 serv pizz sauce,23,40,1,7,1,12
+50@1 serv shrimps and sauce,13,1 serv shrimps and sauce,50,90,1,7,14,13
+18@1 sw eggrolls,14,1 sw eggrolls,18,274.5,15.5,27,8,14
+38@1 yeast roll,15,1 yeast roll,38,160,4.5,26,5,15
+70@1.5 burgers,16,1.5 burgers,70,540,42,0,36,16
+70@1.5 franks,17,1.5 franks,70,360,30,6,16.5,17
+18@1.5 sw eggrolls,18,1.5 sw eggrolls,18,411.75,23.25,40.5,12,18
+"22@half 10 inch pizza w/ pepp, onion, g pepper",19,"half 10 inch pizza w/ pepp, onion, g pepper",22,475,27.5,40,17.5,19
+94@half 6.4oz tuna pack,20,half 6.4oz tuna pack,94,90,0.5,0,20.5,20
+100@half med Dr Pepper,21,half med Dr Pepper,100,115,0,32,0,21
+22@half Pepperoni Calzone,22,half Pepperoni Calzone,22,480,23,47.5,22.5,22
+36@half pound 90/10 beef,23,half pound 90/10 beef,36,399,22,0,45,23
+59@half Quarter Pounder w/ cheese,24,half Quarter Pounder w/ cheese,59,260,13,21,15,24
+2@half Queso bowl,25,half Queso bowl,2,424,34.5,19.5,19.5,25
+23@half serv pizz sauce,26,half serv pizz sauce,23,20,0.5,3.5,0.5,26
+"16@10 inch pizza w/ pepp, onion, g pepper",27,"10 inch pizza w/ pepp, onion, g pepper",16,950,55,80,35,27
+"22@10 inch pizza w/ pepp, onion, g pepper",28,"10 inch pizza w/ pepp, onion, g pepper",22,950,55,80,35,28
+59@10 piece nugs,29,10 piece nugs,59,425,25,25,22.5,29
+104@10 wings (10 original,30,10 wings (10 original,104,845,40,70,45,30
+17@12 breaded nugs,31,12 breaded nugs,17,380,17,16,40,31
+17@12 grilled nugs,32,12 grilled nugs,17,200,4.5,2,38,32
+93@12oz can,33,12oz can,93,140,0,39,0,33
+105@15oz can,34,15oz can,105,590,33,48,26,34
+105@15oz with beans,35,15oz with beans,105,590,33,48,26,35
+50@18 shrimps w/ sauce (2 servings,36,18 shrimps w/ sauce (2 servings,50,180,2,14,28,36
+105@19oz with beans,37,19oz with beans,105,750,42,61,33,37
+68@1oz original,38,1oz original,68,70,0,6,11,38
+"51@2 beef enchilada, rice&beans",39,"2 beef enchilada, rice&beans",51,1100,65,85,43,39
+96@2 Beef Soft tacos,40,2 Beef Soft tacos,96,360,18,34,18,40
+69@2 Breadsticks,41,2 Breadsticks,69,280,5,50,8,41
+6@2 breakfast burritos,42,2 breakfast burritos,6,894,54,74,30,42
+21@2 chicken egg rolls,43,2 chicken egg rolls,21,340,9,52,12,43
+96@2 Chicken Soft tacos,44,2 Chicken Soft tacos,96,320,10,32,24,44
+31@2 chocolate frosted donuts,45,2 chocolate frosted donuts,31,580,36,60,4,45
+72@2 cookie,46,2 cookie,72,106.6666666667,4.6666666667,16.6666666667,0.6666666667,46
+83@2 french bread pepps,47,2 french bread pepps,83,740,28,90,30,47
+65@2 fried gourami,48,2 fried gourami,65,380,28,0,30,48
+38@2 fried tenders,49,2 fried tenders,38,174,8.2,11,14.4,49
+6@2 fried tenders,50,2 fried tenders,6,174,8.2,11,14.4,50
+6@2 jr cheeseburger,51,2 jr cheeseburger,6,938,52,106,46,51
+94@2 mini packs,52,2 mini packs,94,140,1,0,34,52
+98@2 piece of turkey,53,2 piece of turkey,98,100,2,0,22,53
+75@2 pork egg rolls,54,2 pork egg rolls,75,380,18,40,12,54
+59@2 sausage egg and cheese bicuits,55,2 sausage egg and cheese bicuits,59,1160,76,78,40,55
+98@2 slice apple pie,56,2 slice apple pie,98,600,20,80,10,56
+6@2 slice Artisan Style Bread MultiGrain,57,2 slice Artisan Style Bread MultiGrain,6,180,3,30,8,57
+102@2 sliders w cheese,58,2 sliders w cheese,102,340,18,29,16,58
+18@2 sw eggrolls,59,2 sw eggrolls,18,549,31,54,16,59
+38@2 yeast roll,60,2 yeast roll,38,320,9,52,10,60
+102@2- 2packs sliders w cheese,61,2- 2packs sliders w cheese,102,680,36,58,32,61
+33@3 bean ancho chili,62,3 bean ancho chili,33,450,25,31,30,62
+33@3 cheese turkey lasagna,63,3 cheese turkey lasagna,33,510,29,35,36,63
+96@3 Chicken Soft tacos,64,3 Chicken Soft tacos,96,480,15,48,36,64
+6@3 chicken strip,65,3 chicken strip,6,375,22.5,22.5,21,65
+65@3 Egg rolls,66,3 Egg rolls,65,567,18,75,24,66
+"106@3 eggs, 3 bacons hashbrown and 1 pancake",67,"3 eggs, 3 bacons hashbrown and 1 pancake",106,630,42,39,26,67
+26@3 Meat Rising Crust 2 slice,68,3 Meat Rising Crust 2 slice,26,660,26,76,32,68
+26@3 Meat Rising Crust half 3 slice,69,3 Meat Rising Crust half 3 slice,26,990,39,114,48,69
+6@3 slice Artisan Style Bread MultiGrain,70,3 slice Artisan Style Bread MultiGrain,6,270,4.5,45,12,70
+38@3 yeast roll,71,3 yeast roll,38,480,13.5,78,15,71
+"16@3/8 10 inch pizza w/ pepp, onion, g pepper",72,"3/8 10 inch pizza w/ pepp, onion, g pepper",16,356.25,20.625,30,13.125,72
+"22@3/8 10 inch pizza w/ pepp, onion, g pepper",73,"3/8 10 inch pizza w/ pepp, onion, g pepper",22,356.25,20.625,30,13.125,73
+"22@.75 10 inch pizza w/ pepp, onion, g pepper",74,".75 10 inch pizza w/ pepp, onion, g pepper",22,712.5,41.25,60,26.25,74
+53@4 cheese pizz,75,4 cheese pizz,53,370,8,54,20,75
+17@4 Chick-n-Minis,76,4 Chick-n-Minis,17,360,13,41,19,76
+96@4 Chicken Soft tacos,77,4 Chicken Soft tacos,96,640,20,64,48,77
+65@4 Egg rolls,78,4 Egg rolls,65,756,24,100,32,78
+38@4 fried tenders,79,4 fried tenders,38,348,16.4,22,28.8,79
+104@4 Louisiana rub boneless,80,4 Louisiana rub boneless,104,394,22,28,18,80
+26@4 meats Thin crust 2 piece,81,4 meats Thin crust 2 piece,26,387.5,18.75,35,20,81
+26@4 meats Thin crust half,82,4 meats Thin crust half,26,775,37.5,70,40,82
+1@4 mozzarella,83,4 mozzarella,1,370,19,40,15,83
+91@4 mozzarella,84,4 mozzarella,91,370,19,40,15,84
+1@4 nugs,85,4 nugs,1,210,10,12,17,85
+59@4 piece nugs,86,4 piece nugs,59,170,10,10,9,86
+100@4 piece spicy nugs,87,4 piece spicy nugs,100,190,12,9,10,87
+79@4 quepapas,88,4 quepapas,79,144,7.2,15.2,3.2,88
+100@4 saltines,89,4 saltines,100,51,1.4,8.5,1.1,89
+6@4 slice Artisan Style Bread MultiGrain,90,4 slice Artisan Style Bread MultiGrain,6,360,6,60,16,90
+40@4oz cooked pork,91,4oz cooked pork,40,270,16,0,30,91
+38@5 fried tenders,92,5 fried tenders,38,435,20.5,27.5,36,92
+38@6 fried tenders,93,6 fried tenders,38,522,24.6,33,43.2,93
+95@6 in tuna,94,6 in tuna,95,460,26,38,17,94
+95@6 inch steak and chee,95,6 inch steak and chee,95,320,10,37,25,95
+104@6 Original hot boneless,96,6 Original hot boneless,104,507,24,42,27,96
+101@6 pc bites,97,6 pc bites,101,450,22,33,30,97
+59@6 piece nugs,98,6 piece nugs,59,250,15,15,14,98
+100@6 spicy nugs,99,6 spicy nugs,100,280,18,13,15,99
+94@6.4oz tuna pack,100,6.4oz tuna pack,94,180,1,0,41,100
+95@6in club no cheese,101,6in club no cheese,95,298,4,38,28,101
+101@6in flour tortilla,102,6in flour tortilla,101,90,2.5,14,3,102
+95@6inch cold cut combo w/ chee,103,6inch cold cut combo w/ chee,95,373,17,39,18,103
+73@6oz sirloin and 4 grilled shrimp,104,6oz sirloin and 4 grilled shrimp,73,660,41,17,55,104
+54@78% Dark Chocolate 3 pieces,105,78% Dark Chocolate 3 pieces,54,170,14,11,3,105
+79@8 Buffalo Medium wings (got 9),106,8 Buffalo Medium wings (got 9),79,832.5,37.125,84.375,41.625,106
+37@85% Dark Chocolate 2.5 pieces,107,85% Dark Chocolate 2.5 pieces,37,170,17,10,2,107
+54@85% Dark Chocolate 3 pieces,108,85% Dark Chocolate 3 pieces,54,170,14,11,4,108
+38@8oz Sweet Tea,109,8oz Sweet Tea,38,96,0,25,0,109
+6@9 grain bread 2 slice,110,9 grain bread 2 slice,6,120,2,24,6,110
+6@9 grain bread 4 slice,111,9 grain bread 4 slice,6,240,4,48,12,111
+57@Acai x1,112,Acai x1,57,45,0,12,0,112
+57@Acai x2,113,Acai x2,57,90,0,24,0,113
+48@almond butter,114,almond butter,48,220,10,26,8,114
+33@Ancho Chili,115,Ancho Chili,33,450,25,31,30,115
+18@ancho salmon w/ rice and broccoli,116,ancho salmon w/ rice and broccoli,18,630,30,42,48,116
+57@Apple Pie x1,117,Apple Pie x1,57,45,0,12,0,117
+57@Apple Pie x2,118,Apple Pie x2,57,90,0,24,0,118
+20@apple pie,119,apple pie,20,296,14,43,2.4,119
+80@apple pie,120,apple pie,80,296,14,43,2.4,120
+98@apple pie,121,apple pie,98,296,14,43,2.4,121
+87@apple salad,122,apple salad,87,640,27,68,34,122
+36@Apple Sauce,123,Apple Sauce,36,130,0,35,0,123
+81@Apple Walnut salad no dressing,124,Apple Walnut salad no dressing,81,200,7,20,12,124
+33@Asian chicken noodle,125,Asian chicken noodle,33,410,14,46,29,125
+33@Autumn Lasagna,126,Autumn Lasagna,33,580,33,42,31,126
+46@Bacon Breakfast bowl,127,Bacon Breakfast bowl,46,400,25,18,26,127
+92@bacon cheddar crisps 3 crsips,128,bacon cheddar crisps 3 crsips,92,70,3.5,4.5,5,128
+92@bacon cheddar crisps 6 crsips,129,bacon cheddar crisps 6 crsips,92,140,7,9,10,129
+6@Bacon cheese burger no mayo,130,Bacon cheese burger no mayo,6,520,25,40,36,130
+101@Bacon Cheese whataburger,131,Bacon Cheese whataburger,101,750,37,62,39,131
+6@Bacon Cheeseburger,132,Bacon Cheeseburger,6,630,36,40,36,132
+52@Baked BBQ,133,Baked BBQ,52,140,3.5,24,2,133
+14@baked flaming hots 34 pieces,134,baked flaming hots 34 pieces,14,140,5,20,2,134
+"73@Baked Potato with Cheese, Chives, bacon",135,"Baked Potato with Cheese, Chives, bacon",73,265,4,49,9,135
+3@Banana,136,Banana,3,105,0.5,27,1.3,136
+97@Barbacoa Tacos Dorado,137,Barbacoa Tacos Dorado,97,380,10,44,27,137
+33@BBQ Bison Burger,138,BBQ Bison Burger,33,600,35,41,29,138
+2@bbq chicken pizza,139,bbq chicken pizza,2,1040,40,124,43,139
+32@BBQ Cuban medium,140,BBQ Cuban medium,32,870,51,66,38,140
+49@bbq pulled chicken 1.5 servs,141,bbq pulled chicken 1.5 servs,49,330,7.5,37.5,27,141
+49@bbq pulled chicken 1/3 servs,142,bbq pulled chicken 1/3 servs,49,73.3333333333,1.6666666667,8.3333333333,6,142
+49@bbq pulled pork,143,bbq pulled pork,49,435,18,37.5,31.5,143
+79@bbq wings 2 wing,144,bbq wings 2 wing,79,200,8,22,10,144
+79@bbq wings 6 wing,145,bbq wings 6 wing,79,600,24,66,30,145
+33@Beef & Veggie Meatballs,146,Beef & Veggie Meatballs,33,580,38,30,32,146
+33@beef and broccoli,147,beef and broccoli,33,500,14,53,32,147
+1@Beef and Cheddar,148,Beef and Cheddar,1,450,20,45,23,148
+33@Beef Burrito Bowl,149,Beef Burrito Bowl,33,440,20,39,25,149
+44@beef jerky 1 serv,150,beef jerky 1 serv,44,90,1,6,7,150
+7@Beef jerky 1 serv,151,Beef jerky 1 serv,7,90,1,6,7,151
+43@Beef Tips + gravy 2serv,152,Beef Tips + gravy 2serv,43,340,20,6,34,152
+96@Beefy 5 layer no sour cream,153,Beefy 5 layer no sour cream,96,491,83,24,25,153
+25@BEERS AND PIZZA,154,BEERS AND PIZZA,25,2000,0,0,0,154
+4@BEERS,155,BEERS,4,1500,0,0,0,155
+100@Big Bacon Classic,156,Big Bacon Classic,100,570,29,46,34,156
+59@Big mac,157,Big mac,59,550,30,45,25,157
+80@biscuit,158,biscuit,80,207,13,20,3,158
+13@Black beans 15oz,159,Black beans 15oz,13,330,0,60,21,159
+10@Black Cherry Seltzer,160,Black Cherry Seltzer,10,100,0,2,0,160
+66@black pepper 1 serv,161,black pepper 1 serv,66,90,2,2,16,161
+58@blt,162,blt,58,395,20,37,16,162
+63@Blueberry Cake Doughnut,163,Blueberry Cake Doughnut,63,290,17,32,4,163
+6@Blueberry greek yogis,164,Blueberry greek yogis,6,140,0,19,15,164
+63@Blueberry/Pumpkin Cake Doughnut,165,Blueberry/Pumpkin Cake Doughnut,63,290,17,32,4,165
+6@Bluepom greek yogis,166,Bluepom greek yogis,6,140,0,19,15,166
+"19@bowl: STEAK,brown rice, black bean, faj,cheese,corn",167,"bowl: STEAK,brown rice, black bean, faj,cheese,corn",19,930,45,89,45,167
+82@box combo no cole slaw,168,box combo no cole slaw,82,1170,59,88,62,168
+59@breakfast burrito,169,breakfast burrito,59,447,27,37,15,169
+6@breakfast burrito,170,breakfast burrito,6,447,27,37,15,170
+84@Brisket Salad,171,Brisket Salad,84,770,51,14,64,171
+81@Broccoli Cheddar soup,172,Broccoli Cheddar soup,81,230,16,11,8,172
+33@Buffalo Chicken Bowl,173,Buffalo Chicken Bowl,33,450,19,48,22,173
+33@Buffalo Chicken,174,Buffalo Chicken,33,490,29,16,43,174
+33@Bunless Bison Burger,175,Bunless Bison Burger,33,540,31,36,27,175
+"19@Burrito – Steak,  BkBeans, Fajita, Tomato Salsa, Guac, Jack Chs",176,"Burrito – Steak,  BkBeans, Fajita, Tomato Salsa, Guac, Jack Chs",19,985,46.5,91,46,176
+16@caesar salad with croutons,177,caesar salad with croutons,16,130,10,8,3,177
+27@caesar salad with dressing,178,caesar salad with dressing,27,450,33,15,19,178
+80@Cajun Flounder Sandwich,179,Cajun Flounder Sandwich,80,630,31,53,35,179
+80@Cajun fries side,180,Cajun fries side,80,268,14,33,4,180
+57@Caramel Apple x2,181,Caramel Apple x2,57,90,0,24,0,181
+33@Cauli Bolognese,182,Cauli Bolognese,33,530,25,47,30,182
+12@Ch'king sandwich,183,Ch'king sandwich,12,800,39,69,33,183
+12@ch'king spicy,184,ch'king spicy,12,950,54,72,33,184
+91@Cheeseburger w/ mustard,185,Cheeseburger w/ mustard,91,590,28,54,31,185
+96@Cheesy Bean and rice burrito,186,Cheesy Bean and rice burrito,96,410,16,56,10,186
+74@cherry pop,187,cherry pop,74,40,0,10,0,187
+57@Cherry x1,188,Cherry x1,57,45,0,12,0,188
+57@Cherry x2,189,Cherry x2,57,90,0,24,0,189
+101@Chicken Bites 6piece,190,Chicken Bites 6piece,101,450,22,33,30,190
+81@Chicken Club skinny,191,Chicken Club skinny,81,420,12,45,33,191
+33@Chicken Hotdish,192,Chicken Hotdish,33,490,19,43,34,192
+53@Chicken parm,193,Chicken parm,53,350,10,44,20,193
+96@Chicken Quesadilla,194,Chicken Quesadilla,96,510,26,38,27,194
+96@Chicken Soft Taco,195,Chicken Soft Taco,96,160,5,16,12,195
+33@Chicken Tikka Masala,196,Chicken Tikka Masala,33,570,27,48,33,196
+33@Chickpea Curry Bowl,197,Chickpea Curry Bowl,33,360,12,50,11,197
+105@Chili w/ beans 15oz,198,Chili w/ beans 15oz,105,590,33,48,26,198
+33@Chimichurri Rojo Steak,199,Chimichurri Rojo Steak,33,450,32,17,28,199
+33@chipotle chicken stew,200,chipotle chicken stew,33,450,26,27,22,200
+18@Chips and Dips,201,Chips and Dips,18,400,0,0,0,201
+63@Chocolate Cake Doughnut,202,Chocolate Cake Doughnut,63,290,17,32,4,202
+30@Chocolate cake glaze,203,Chocolate cake glaze,30,360,22,39,4,203
+31@Chocolate donut,204,Chocolate donut,31,290,18,30,2,204
+47@Chocolate Peanut Butter 1 scoop in water,205,Chocolate Peanut Butter 1 scoop in water,47,110,2,2,20,205
+35@chocolate protein shake,206,chocolate protein shake,35,190,1,12,30,206
+90@Chocolate pudding,207,Chocolate pudding,90,100,2.5,19,0.5,207
+64@Chocolate zero sugar,208,Chocolate zero sugar,64,180,5,10,25,208
+83@Classic crust pepperoni 2 slice,209,Classic crust pepperoni 2 slice,83,380,18,40,15,209
+83@Classic crust pepperoni 4 slice,210,Classic crust pepperoni 4 slice,83,760,36,80,30,210
+83@Classic Crust supreme 1 slice,211,Classic Crust supreme 1 slice,83,193.75,9.375,20.625,7.5,211
+83@Classic Crust supreme 4 slice,212,Classic Crust supreme 4 slice,83,775,37.5,82.5,30,212
+57@Cotton Candy x2,213,Cotton Candy x2,57,90,0,12,0,213
+6@Croutons,214,Croutons,6,130,4,19,3,214
+81@Cup of chili,215,Cup of chili,81,250,11,20,15,215
+100@Dave's double w cheese,216,Dave's double w cheese,100,810,51,39,49,216
+100@Dave's single no mayo,217,Dave's single no mayo,100,510,27,39,30,217
+100@Dave's single w/ cheese,218,Dave's single w/ cheese,100,570,34,38,29,218
+25@DEBAUCHERY,219,DEBAUCHERY,25,2000,0,0,0,219
+46@Delights – Farmhouse,220,Delights – Farmhouse,46,300,18,17,17,220
+100@Deluxe Crispy chicken sandwich,221,Deluxe Crispy chicken sandwich,100,710,39,58,34,221
+1@Double Beef and Cheddar,222,Double Beef and Cheddar,1,630,32,48,39,222
+12@Double Chee,223,Double Chee,12,390,21,27,23,223
+101@double whataburger jr w/ cheese,224,double whataburger jr w/ cheese,101,470,28,29,25,224
+59@Dub QP with cheese,225,Dub QP with cheese,59,740,42,43,48,225
+44@extra tender original 3oz bag,226,extra tender original 3oz bag,44,240,3,15,30,226
+94@Family sized tuna pack,227,Family sized tuna pack,94,280,1.75,0,66.5,227
+90@fanta orange jello,228,fanta orange jello,90,90,0,21,0,228
+33@Fiesta beef bowl,229,Fiesta beef bowl,33,240,8,16,25,229
+59@Filet o Fish,230,Filet o Fish,59,380,18,39,16,230
+14@Flaming hot 3.25oz bag 21 pieces,231,Flaming hot 3.25oz bag 21 pieces,14,170,11,15,1,231
+39@flavor blast cheddar 51piece 2 times,232,flavor blast cheddar 51piece 2 times,39,280,10,38,8,232
+39@flavor blast cheddar 51piece 3 times,233,flavor blast cheddar 51piece 3 times,39,420,15,57,12,233
+39@flavor blast cheddar 51piece,234,flavor blast cheddar 51piece,39,140,5,19,4,234
+95@footlong american club,235,footlong american club,95,720,27,78,49,235
+95@Footlong BMT no cheese,236,Footlong BMT no cheese,95,750,33,77,37,236
+95@footlong club no cheese,237,footlong club no cheese,95,596,8,76,56,237
+95@footlong club w/ cheese,238,footlong club w/ cheese,95,676,15,78,60,238
+95@footlong steak and chee,239,footlong steak and chee,95,640,20,74,50,239
+95@Footlong Tuna,240,Footlong Tuna,95,856,48,70,36,240
+34@FOR FUN,241,FOR FUN,34,2000,0,0,0,241
+33@Freestyle beef lasagna,242,Freestyle beef lasagna,33,470,27,51,30,242
+38@FriedOkra,243,FriedOkra,38,317,14.4,33.5,4.3,243
+103@Fries,244,Fries,103,400,6,56,4,244
+34@FUN,245,FUN,34,1500,0,0,0,245
+65@Gadoog moo/moo tod gratiem,246,Gadoog moo/moo tod gratiem,65,370,15,4,50,246
+16@Garlic Bread,247,Garlic Bread,16,310,21,22,9,247
+45@Giant #17 philly,248,Giant #17 philly,45,1420,61,126,91,248
+74@grape pop,249,grape pop,74,40,0,10,0,249
+57@Grape x2,250,Grape x2,57,90,0,12,0,250
+17@greek yogurt parfait,251,greek yogurt parfait,17,280,9,35,14,251
+17@Grilled Chicken Cool Wrap,252,Grilled Chicken Cool Wrap,17,350,15,30,37,252
+33@Grilled Za'atar Chicken,253,Grilled Za'atar Chicken,33,570,24,58,30,253
+57@Guava x1,254,Guava x1,57,45,0,12,0,254
+57@Guava x2,255,Guava x2,57,90,0,24,0,255
+"16@Half 10 inch pizza w/ pepp, onion, g pepper",256,"Half 10 inch pizza w/ pepp, onion, g pepper",16,475,27.5,40,17.5,256
+"22@Half 10 inch pizza w/ pepp, onion, g pepper",257,"Half 10 inch pizza w/ pepp, onion, g pepper",22,475,27.5,40,17.5,257
+81@half blta sandwich,258,half blta sandwich,81,480,25,45,24,258
+22@Half Pepperoni Calzone,259,Half Pepperoni Calzone,22,480,23,47.5,22.5,259
+1@Half pound beef and cheddar,260,Half pound beef and cheddar,1,740,39,46,49,260
+91@Half small mozzarella sticks,261,Half small mozzarella sticks,91,185,9.5,20,7.5,261
+59@hash brown,262,hash brown,59,160,10,16,1,262
+59@Hashbrown,263,Hashbrown,59,160,10,16,1,263
+69@Herb Grilled Salmon,264,Herb Grilled Salmon,69,460,29,8,45,264
+11@Hickory Smoke 2 pieces,265,Hickory Smoke 2 pieces,11,70,0,2,14,265
+11@Hickory Smoke 3 pieces,266,Hickory Smoke 3 pieces,11,105,0,3,21,266
+11@Hickory Smoke 4 pieces,267,Hickory Smoke 4 pieces,11,140,0,4,28,267
+11@Hickory Smoke 5 pieces,268,Hickory Smoke 5 pieces,11,175,0,5,35,268
+6@Honey nilla greek yogis,269,Honey nilla greek yogis,6,140,0,19,15,269
+14@Hot cheetos fries 1 serv,270,Hot cheetos fries 1 serv,14,150,8,17,2,270
+29@James&Coke,271,James&Coke,29,250,0,40,0,271
+6@jr burger,272,jr burger,6,399,21,51,20,272
+6@jr cheeseburger,273,jr cheeseburger,6,469,26,53,23,273
+6@Junior double cheeseburger,274,Junior double cheeseburger,6,802,56,36,47,274
+6@Junior double hamburger,275,Junior double hamburger,6,662,46,32,41,275
+100@Junior fries,276,Junior fries,100,210,9,28,3,276
+89@Just the meat 2 cups,277,Just the meat 2 cups,89,696,30,48,52,277
+49@kc pulled pork (2 servs),278,kc pulled pork (2 servs),49,580,24,50,42,278
+33@keto friendly chicken bowl,279,keto friendly chicken bowl,33,340,18,13,31,279
+6@key lime yog,280,key lime yog,6,170,1.5,32,9,280
+41@kielbasa (is 7 servs) eat 2/3,281,kielbasa (is 7 servs) eat 2/3,41,840,70,14,32.6666666667,281
+33@ktown pork and rice,282,ktown pork and rice,33,580,33,53,22,282
+33@Kung Pao Steak,283,Kung Pao Steak,33,520,20,55,31,283
+96@Large Baja Blast,284,Large Baja Blast,96,440,0,120,0,284
+59@large dr pepper,285,large dr pepper,59,270,0,72,0,285
+79@Large pizz (peps +veg) 2 slice,286,Large pizz (peps +veg) 2 slice,79,520,22,62,26,286
+79@Large pizz (peps +veg) 3 slice,287,Large pizz (peps +veg) 3 slice,79,780,33,93,39,287
+79@Large pizz (peps +veg) 4 slice,288,Large pizz (peps +veg) 4 slice,79,1040,44,124,52,288
+32@Large Steamer on white no mayo,289,Large Steamer on white no mayo,32,860,39,80,59,289
+"79@Large Supreme Thin, 1 slice",290,"Large Supreme Thin, 1 slice",79,300,14,30,14,290
+"79@Large Supreme Thin, 2 slice",291,"Large Supreme Thin, 2 slice",79,600,28,60,28,291
+38@Large Sweet Tea 36oz,292,Large Sweet Tea 36oz,38,432,0,111.6,0,292
+80@large sweet tea,293,large sweet tea,80,360,0,90,0,293
+63@Lemon Filled Doughnut,294,Lemon Filled Doughnut,63,290,15,37,4,294
+10@lemon lime seltzer,295,lemon lime seltzer,10,100,0,2,0,295
+57@Lemon Lime x1,296,Lemon Lime x1,57,45,0,12,0,296
+57@Lemon Lime x2,297,Lemon Lime x2,57,90,0,24,0,297
+10@lemonlime Seltzer,298,lemonlime Seltzer,10,100,0,2,0,298
+88@light lemonade 16oz,299,light lemonade 16oz,88,50,0,14,0,299
+74@Lime pop,300,Lime pop,74,45,0,11,0,300
+10@Lime Seltzer,301,Lime Seltzer,10,100,0,2,0,301
+66@liquid smoke 1 BAG,302,liquid smoke 1 BAG,66,315,7,7,59.5,302
+66@liquid smoke 1 serv,303,liquid smoke 1 serv,66,90,2,2,17,303
+66@liquid smoke 1.5 serv,304,liquid smoke 1.5 serv,66,135,3,3,25.5,304
+66@liquid smoke 1/3 serv,305,liquid smoke 1/3 serv,66,30,0.6666666667,0.6666666667,5.6666666667,305
+66@liquid smoke 2 serv,306,liquid smoke 2 serv,66,180,4,4,34,306
+66@liquid smoke hot 1 serv,307,liquid smoke hot 1 serv,66,90,2,2,17,307
+88@lite lemonade 8oz,308,lite lemonade 8oz,88,25,0,7,0,308
+6@low fat yogurt lemon cream,309,low fat yogurt lemon cream,6,170,1.5,32,9,309
+6@low fat yogurt Strawberry & Cream,310,low fat yogurt Strawberry & Cream,6,180,1.5,33,9,310
+6@low fat yogurt strawberry banana,311,low fat yogurt strawberry banana,6,170,1.5,28,9,311
+50@Low Moisture String Cheese,312,Low Moisture String Cheese,50,80,6,1,6,312
+5@mac and cheese 1.5servs,313,mac and cheese 1.5servs,5,450,18,54,16.5,313
+5@mac n cheese 1 serv,314,mac n cheese 1 serv,5,300,12,36,11,314
+10@Mango Seltzer,315,Mango Seltzer,10,100,0,2,0,315
+5@mashed taters 1 serv,316,mashed taters 1 serv,5,150,7,22,3,316
+59@mcchicken no bun or mayo,317,mcchicken no bun or mayo,59,160,9,10,9,317
+59@McDouble,318,McDouble,59,370,17,34,21,318
+33@Meatball veggies,319,Meatball veggies,33,580,38,30,32,319
+101@med fries,320,med fries,101,310,14,43,4,320
+6@med fries,321,med fries,6,310,14,43,4,321
+32@med steak and cheese,322,med steak and cheese,32,830,51,53,38,322
+32@med steamer no dressing,323,med steamer no dressing,32,687,40,50,33,323
+86@medium cheddar 1 slice,324,medium cheddar 1 slice,86,80,7,0,5,324
+101@medium fries,325,medium fries,101,310,14,43,4,325
+12@medium fries,326,medium fries,12,310,14,43,4,326
+59@Medium fries,327,Medium fries,59,310,14,43,4,327
+6@medium fries,328,medium fries,6,310,14,43,4,328
+12@medium onion rings,329,medium onion rings,12,488,30,51,4.5,329
+87@Medium Original ,330,Medium Original ,87,780,34,78,40,330
+79@Medium pizz 2 slice (pepperoni & 3 vg),331,Medium pizz 2 slice (pepperoni & 3 vg),79,380,14,46,18,331
+79@Medium pizz 4 slice (pepperoni & 3 vg),332,Medium pizz 4 slice (pepperoni & 3 vg),79,760,28,92,36,332
+42@Medium pizz 6 slice (pepperoni & 3 vg),333,Medium pizz 6 slice (pepperoni & 3 vg),42,1140,42,138,54,333
+79@Medium pizz 8 slice (pepperoni & 3 vg),334,Medium pizz 8 slice (pepperoni & 3 vg),79,1520,56,184,72,334
+32@Medium Steak and Cheese no mayo,335,Medium Steak and Cheese no mayo,32,553,23,52,38,335
+27@medium thin pep w/ 3 veggies,336,medium thin pep w/ 3 veggies,27,1160,64,96,44,336
+"27@Medium thin: pepperoni, jala  half pizz",337,"Medium thin: pepperoni, jala  half pizz",27,600,34,46,22,337
+91@Medium Tots,338,Medium Tots,91,360,19,43,3,338
+32@Medium Tuna Salad white,339,Medium Tuna Salad white,32,910,57,61,39,339
+60@Mexican Food,340,Mexican Food,60,400,20,50,15,340
+48@mini caramel almond and sea salt,341,mini caramel almond and sea salt,48,90,8,8,3,341
+36@Mini cinnamon roll,342,Mini cinnamon roll,36,105,4.5,15,1.5,342
+47@mint chocolate 1 scoop,343,mint chocolate 1 scoop,47,110,2,2,22,343
+33@Miso glaze beef bowl,344,Miso glaze beef bowl,33,330,17,17,26,344
+33@Mojo Shrimp,345,Mojo Shrimp,33,410,23,20,33,345
+50@Mozz 1 serv,346,Mozz 1 serv,50,90,6,2,7,346
+50@Mozz half serv,347,Mozz half serv,50,45,3,1,3.5,347
+6@Multi grain bread 2 slice,348,Multi grain bread 2 slice,6,180,3,30,8,348
+28@nacho cheese,349,nacho cheese,28,260,13,31,4,349
+33@Naked Bison burger,350,Naked Bison burger,33,400,26,21,24,350
+100@Oatmeal bar,351,Oatmeal bar,100,270,10,44,3,351
+33@Ole Chicken & chile sauce,352,Ole Chicken & chile sauce,33,550,26,50,31,352
+6@Orange greek yogis,353,Orange greek yogis,6,140,0,19,15,353
+44@Original 1 serv,354,Original 1 serv,44,80,1,6,11,354
+44@Original 2 serv,355,Original 2 serv,44,160,2,12,22,355
+39@Original 55 pieces,356,Original 55 pieces,39,140,5,20,3,356
+15@original beef jerky 1 bag,357,original beef jerky 1 bag,15,225,6.25,15,25,357
+68@original jerky 1 serv,358,original jerky 1 serv,68,70,0,6,11,358
+68@original jerky 2 servs,359,original jerky 2 servs,68,140,0,12,22,359
+81@Original size BLTA,360,Original size BLTA,81,670,31,72,36,360
+33@Oven fried chicken and mash,361,Oven fried chicken and mash,33,510,26,45,27,361
+81@oyster crackers,362,oyster crackers,81,60,1.5,11,1,362
+33@PalmNoodlePadThai,363,PalmNoodlePadThai,33,470,22,41,29,363
+100@Parmesan caesar salad,364,Parmesan caesar salad,100,560,36,10,51,364
+76@PARTY TIME,365,PARTY TIME,76,2000,0,0,0,365
+57@Passion Fruit x1,366,Passion Fruit x1,57,45,0,12,0,366
+57@Passion Fruit x2,367,Passion Fruit x2,57,90,0,24,0,367
+101@Patty Melt (double),368,Patty Melt (double),101,950,61,45,49,368
+101@Patty Melt w/ bacon,369,Patty Melt w/ bacon,101,1085,73,45,61,369
+6@peach cream yogis,370,peach cream yogis,6,170,1.5,31,9,370
+6@Peach greek yogis,371,Peach greek yogis,6,140,0,19,15,371
+56@Peach Iced Tea,372,Peach Iced Tea,56,110,0,29,0,372
+47@Peanut Butter,373,Peanut Butter,47,110,2,2,20,373
+77@Pear,374,Pear,77,101,0.3,27,0.6,374
+24@pepp pizz,375,pepp pizz,24,390,10,53,21,375
+44@peppered jerky 1 serv,376,peppered jerky 1 serv,44,80,1,8,10,376
+16@Pepperoni Calzone,377,Pepperoni Calzone,16,960,46,95,45,377
+22@Pepperoni Calzone,378,Pepperoni Calzone,22,960,46,95,45,378
+8@Pepperoni Calzone,379,Pepperoni Calzone,8,960,46,95,45,379
+83@Pepperoni French Bread,380,Pepperoni French Bread,83,370,14,45,15,380
+53@Pepperoni pizz,381,Pepperoni pizz,53,390,10,53,21,381
+26@Pepperoni Rising Crust 1/2pizz,382,Pepperoni Rising Crust 1/2pizz,26,960,36,111,45,382
+26@Pepperoni Rising Crust 2 piece,383,Pepperoni Rising Crust 2 piece,26,640,24,74,30,383
+26@Pepperoni Rising Crust 2 slice,384,Pepperoni Rising Crust 2 slice,26,640,24,74,30,384
+26@Pepperoni Rising Crust slice,385,Pepperoni Rising Crust slice,26,320,12,37,15,385
+26@PEPPERONI Thin crust 1 piece,386,PEPPERONI Thin crust 1 piece,26,187.5,9.375,17.5,8.75,386
+26@PEPPERONI Thin crust 2 piece,387,PEPPERONI Thin crust 2 piece,26,375,18.75,35,17.5,387
+26@Pepperoni Thin crust half,388,Pepperoni Thin crust half,26,750,37.5,70,35,388
+43@Pepps 1 serving,389,Pepps 1 serving,43,150,14,0,5,389
+43@Pepps half serving,390,Pepps half serving,43,75,7,0,2.5,390
+33@Philly-ish,391,Philly-ish,33,520,32,23,34,391
+98@piece of turkey,392,piece of turkey,98,50,1,0,11,392
+13@pintos 16oz,393,pintos 16oz,13,315,0,59.5,21,393
+78@Pizza Beers,394,Pizza Beers,78,1200,0,0,0,394
+6@plain greek yogis,395,plain greek yogis,6,100,0,7,17,395
+22@Popcorn Shrimp 22 piece serving,396,Popcorn Shrimp 22 piece serving,22,370,15,23,10,396
+33@Pork Carnitas,397,Pork Carnitas,33,520,29,34,30,397
+33@Pork Chile Colorado,398,Pork Chile Colorado,33,570,25,55,31,398
+75@pork egg roll,399,pork egg roll,75,190,9,20,6,399
+33@Pork Katsu,400,Pork Katsu,33,600,25,64,28,400
+64@Pro chocolate,401,Pro chocolate,64,220,2.5,12,40,401
+64@Pro vanilla,402,Pro vanilla,64,210,2.5,10,40,402
+63@Pumpkin Cake Doughnut,403,Pumpkin Cake Doughnut,63,290,17,32,4,403
+98@pumpkin pie,404,pumpkin pie,98,320,13,46,5,404
+59@QP with cheese,405,QP with cheese,59,520,26,42,30,405
+"22@Quarter 10 inch pizza w/ pepp, onion, g pepper",406,"Quarter 10 inch pizza w/ pepp, onion, g pepper",22,237.5,13.75,20,8.75,406
+91@Quarter pound double cheeseburger,407,Quarter pound double cheeseburger,91,570,34,34,31,407
+79@Quepapas,408,Quepapas,79,540,27,57,12,408
+74@Raspberry pop,409,Raspberry pop,74,45,0,11,0,409
+6@Real mayonnaise (.25 tbsp),410,Real mayonnaise (.25 tbsp),6,25,2.75,0,0,410
+6@Real mayonnaise (.75 tbsp),411,Real mayonnaise (.75 tbsp),6,75,8.25,0,0,411
+80@Red Beans and Rice regular,412,Red Beans and Rice regular,80,247,16,22,8,412
+104@reg order seasoned fries,413,reg order seasoned fries,104,390,17,53,7,413
+26@Rising Crust Pepperoni 1 slice,414,Rising Crust Pepperoni 1 slice,26,300,11,37,15,414
+26@Rising Crust Pepperoni 4 slice,415,Rising Crust Pepperoni 4 slice,26,1200,44,148,60,415
+69@Salad w/ dressing,416,Salad w/ dressing,69,150,10,13,3,416
+85@salad,417,salad,85,50,0,10,0,417
+103@Salmon Blt,418,Salmon Blt,103,655,40,32,40,418
+33@Salsa verde pork bowl,419,Salsa verde pork bowl,33,250,9,19,26,419
+98@sandwich no mayo,420,sandwich no mayo,98,600,15,60,20,420
+101@Sauage egg cheese taquito,421,Sauage egg cheese taquito,101,450,27,28,19,421
+46@Saus egg che croisamwwich,422,Saus egg che croisamwwich,46,290,12,32,15,422
+9@Sausage and cheese kolache,423,Sausage and cheese kolache,9,332,20,29,9,423
+33@sausage baked penne,424,sausage baked penne,33,570,30,55,22,424
+91@Sausage Breakfast Burrito Junior,425,Sausage Breakfast Burrito Junior,91,286,16,21,12,425
+91@Sausage Breakfast Burrito,426,Sausage Breakfast Burrito,91,520,31,38,23,426
+59@sausage burrito,427,sausage burrito,59,310,17,25,13,427
+6@Sausage egg and cheese biscuit,428,Sausage egg and cheese biscuit,6,600,39,34,23,428
+63@Sausage Egg and Cheese sandwich,429,Sausage Egg and Cheese sandwich,63,720,52,42,21,429
+12@Sausage egg cheese biscuit,430,Sausage egg cheese biscuit,12,520,37,29,18,430
+12@Sausage egg cheese croissan'wich,431,Sausage egg cheese croissan'wich,12,515,35,30,18,431
+59@Sausage egg cheese mcmuffin,432,Sausage egg cheese mcmuffin,59,480,31,30,20,432
+59@Sausage Egg McMuffin,433,Sausage Egg McMuffin,59,440,25,31,20,433
+"59@Sausage,egg,cheese biscuit",434,"Sausage,egg,cheese biscuit",59,580,38,39,20,434
+6@scrambled eggs,435,scrambled eggs,6,140,9,1,13,435
+61@Sea Salt original,436,Sea Salt original,61,210,12,23,3,436
+33@Seared Top Blade Steak,437,Seared Top Blade Steak,33,490,29,23,36,437
+73@seasoned rice,438,seasoned rice,73,310,9,52,6,438
+33@Sesame Ginger Chicken Noodle,439,Sesame Ginger Chicken Noodle,33,430,11,49,29,439
+55@Shoyu Style Ramen,440,Shoyu Style Ramen,55,380,8,58,17,440
+6@shredd mexican cheese half cup,441,shredd mexican cheese half cup,6,220,18,0,12,441
+33@Shrimp Andouille,442,Shrimp Andouille,33,520,9,67,37,442
+6@sicilian orange greek yogis,443,sicilian orange greek yogis,6,140,0,20,15,443
+18@side caesar salad,444,side caesar salad,18,260,22,14,3,444
+73@side caesar salad,445,side caesar salad,73,260,22,14,3,445
+100@side chili,446,side chili,100,170,5,16,15,446
+38@side fries,447,side fries,38,272,14,34,3,447
+33@Simmered beef bowl,448,Simmered beef bowl,33,530,27,27,42,448
+5@single mac and cheese,449,single mac and cheese,5,220,9,28,8,449
+12@single steakhouse king no mayo (got a double),450,single steakhouse king no mayo (got a double),12,984,51,57,59,450
+12@single steakhouse king no mayo,451,single steakhouse king no mayo,12,744,33,57,39,451
+73@Sirloin 6oz w/ Coconut shrimp,452,Sirloin 6oz w/ Coconut shrimp,73,580,24,42,43,452
+81@Skinny BLTA,453,Skinny BLTA,81,410,16,50,21,453
+81@Skinny Size turkey swiss,454,Skinny Size turkey swiss,81,340,8,49,25,454
+33@Slow simmered beef bowl,455,Slow simmered beef bowl,33,530,27,27,42,455
+101@sm fries,456,sm fries,101,280,14,35,3,456
+91@small mozzarella sticks,457,small mozzarella sticks,91,370,19,40,15,457
+100@Son of baconator no mayo,458,Son of baconator no mayo,100,580,33,37,34,458
+91@Sonic burger w/ mustard,459,Sonic burger w/ mustard,91,590,28,54,31,459
+52@sour cream,460,sour cream,52,800,50,75,10,460
+6@southwest dipping sauce,461,southwest dipping sauce,6,108,11.7,1.1,0.3,461
+18@Southwest Eggroll (1 eggroll),462,Southwest Eggroll (1 eggroll),18,440,17.7,52,17.7,462
+18@Southwest Eggroll (1.5 eggroll),463,Southwest Eggroll (1.5 eggroll),18,660,26.55,78,26.55,463
+100@spicy chicken sandwhich,464,spicy chicken sandwhich,100,530,22,55,31,464
+100@Spicy Chicken sandwich no mayo,465,Spicy Chicken sandwich no mayo,100,440,15,49,29,465
+17@spicy chicken sandwich,466,spicy chicken sandwich,17,460,19,45,28,466
+80@Spicy chicken sandwich,467,Spicy chicken sandwich,80,460,19,45,28,467
+59@Spicy Crispy Chicken Sandwich,468,Spicy Crispy Chicken Sandwich,59,530,26,47,27,468
+66@spicy jerky 1oz,469,spicy jerky 1oz,66,90,2,2,17,469
+59@Spicy McChicken,470,Spicy McChicken,59,400,21,38,14,470
+39@Standard half seving (27 pieces),471,Standard half seving (27 pieces),39,70,2.5,10,1.5,471
+33@Steak peppercorn,472,Steak peppercorn,33,490,25,37,29,472
+73@Steamed Seasonal veg,473,Steamed Seasonal veg,73,130,11,10,2,473
+6@Strawbanana lowfat yogis,474,Strawbanana lowfat yogis,6,170,1.5,32,9,474
+71@Strawbeery yogurt bar,475,Strawbeery yogurt bar,71,180,6,22,15,475
+71@strawberrry yogurt bar,476,strawberrry yogurt bar,71,180,6,22,15,476
+74@strawberry bar,477,strawberry bar,74,60,0,15,0,477
+74@Strawberry Fruit Ice cream bar,478,Strawberry Fruit Ice cream bar,74,60,0,15,0,478
+6@Strawberry Greek yogis,479,Strawberry Greek yogis,6,140,0,19,15,479
+74@Strawberry pop,480,Strawberry pop,74,45,0,11,0,480
+6@Strawberry salad,481,Strawberry salad,6,251,8,19,30,481
+10@Strawberry Seltzer,482,Strawberry Seltzer,10,100,0,2,0,482
+47@Strawberry slayer in water 1 scoop,483,Strawberry slayer in water 1 scoop,47,110,2,1,21,483
+47@Strawberry slayer in water 2 scoop,484,Strawberry slayer in water 2 scoop,47,220,4,2,42,484
+57@Strawberry x1,485,Strawberry x1,57,45,0,11,0,485
+57@Strawberry x2,486,Strawberry x2,57,90,0,24,0,486
+6@strawcream lowfat yogis,487,strawcream lowfat yogis,6,180,1.5,33,9,487
+98@stuffing,488,stuffing,98,400,20,50,10,488
+53@supreme pizz,489,supreme pizz,53,350,8,52,17,489
+26@Supreme Thin crust .25,490,Supreme Thin crust .25,26,362.5,17.5,36.25,16.25,490
+26@Supreme Thin crust 2 piece,491,Supreme Thin crust 2 piece,26,362.5,17.5,36.25,16.25,491
+26@Supreme Thin crust 3 piece,492,Supreme Thin crust 3 piece,26,543.75,26.25,54.375,24.375,492
+26@Supreme Thin crust half,493,Supreme Thin crust half,26,725,35,72.5,32.5,493
+79@Supremo Pzone+ marinar,494,Supremo Pzone+ marinar,79,980,35,125,42,494
+74@tangerine pop,495,tangerine pop,74,40,0,10,0,495
+33@Thai Basil Beef,496,Thai Basil Beef,33,450,16,42,34,496
+33@Thai-ish lemongrass bowl,497,Thai-ish lemongrass bowl,33,470,21,47,23,497
+33@thanksgiving turkey,498,thanksgiving turkey,33,510,28,33,30,498
+98@THANKSGIVING,499,THANKSGIVING,98,3000,0,0,0,499
+47@The darkness chocolate,500,The darkness chocolate,47,110,2,2,21,500
+87@The Original,501,The Original,87,860,40,77,48,501
+26@Thin crust supreme 2 slice,502,Thin crust supreme 2 slice,26,362.5,17.5,36.25,16.25,502
+26@Thin crust supreme 3 slice,503,Thin crust supreme 3 slice,26,543.75,26.25,54.375,24.375,503
+26@Thin crust supreme 4 slice,504,Thin crust supreme 4 slice,26,725,35,72.5,32.5,504
+33@Three Cheese Turkey Lasagna,505,Three Cheese Turkey Lasagna,33,560,32,38,39,505
+16@Tiramisu,506,Tiramisu,16,240,14,23,4,506
+55@Tonkotsu Ramen,507,Tonkotsu Ramen,55,340,5,54,17,507
+33@Traditional Beef Stew,508,Traditional Beef Stew,33,260,7,27,23,508
+33@Tricolor Beef Lasagna,509,Tricolor Beef Lasagna,33,560,30,39,28,509
+18@triple dipper buffalo wings,510,triple dipper buffalo wings,18,620,47,28,23,510
+18@triple dipper sw eggrolls,511,triple dipper sw eggrolls,18,549,31,54,16,511
+101@triple meat w/cheese,512,triple meat w/cheese,101,1165,70,62,70,512
+67@Triple Zero Mixed Berry,513,Triple Zero Mixed Berry,67,100,0,10,15,513
+67@Triple Zero Vanilla,514,Triple Zero Vanilla,67,100,0,10,15,514
+33@Truffled Mushroom Steak,515,Truffled Mushroom Steak,33,460,17,47,31,515
+94@Tuna (.25 of family pack),516,Tuna (.25 of family pack),94,70,0.4375,0.875,16.625,516
+94@Tuna (.75 of family pack),517,Tuna (.75 of family pack),94,210,1.3125,2.625,49.875,517
+81@tuna salad and swiss half size,518,tuna salad and swiss half size,81,370,16,39,17,518
+98@turkey cheese sandwich on rye,519,turkey cheese sandwich on rye,98,290,10,32,22,519
+33@Turkey Meatloaf+broccoli&mashed,520,Turkey Meatloaf+broccoli&mashed,33,450,28,24,36,520
+43@turkey n gravy 2 servs,521,turkey n gravy 2 servs,43,220,5,6,42,521
+46@Turkey Saus breakfast bowl,522,Turkey Saus breakfast bowl,46,270,12,22,19,522
+"46@Turkey saus, egg, cheese croissant",523,"Turkey saus, egg, cheese croissant",46,290,12,32,15,523
+33@Turkey shepherds pie,524,Turkey shepherds pie,33,360,22,19,27,524
+33@Turkey Stroganoff,525,Turkey Stroganoff,33,450,17,47,29,525
+"98@turkey,stuffing,potatos",526,"turkey,stuffing,potatos",98,1500,50,100,50,526
+46@TurkeySausage&Veggie Breakfast wrap,527,TurkeySausage&Veggie Breakfast wrap,46,300,14,31,13,527
+18@two big mouths no ranch,528,two big mouths no ranch,18,610,38,34,30,528
+33@unwrapped steak burrito,529,unwrapped steak burrito,33,430,11,48,32,529
+99@VACATION,530,VACATION,99,0,0,0,0,530
+47@Vanilla Gorilla 1 scoop water,531,Vanilla Gorilla 1 scoop water,47,110,2,1,21,531
+47@Vanilla Gorilla 2 scoop water,532,Vanilla Gorilla 2 scoop water,47,220,4,2,44,532
+35@vanilla protein shake,533,vanilla protein shake,35,190,1,13,30,533
+64@Vanilla zero sugar,534,Vanilla zero sugar,64,180,5,8,25,534
+47@Vanilla+Strawberry,535,Vanilla+Strawberry,47,220,4,2,43,535
+57@Watermelon x1,536,Watermelon x1,57,45,0,12,0,536
+57@Watermelon x2,537,Watermelon x2,57,90,0,24,0,537
+53@white ched mac,538,white ched mac,53,280,7,35,18,538
+33@Whitefish cake,539,Whitefish cake,33,480,25,44,19,539
+38@yeast roll,540,yeast roll,38,160,4.5,26,5,540
+38@Zing sauce,541,Zing sauce,38,229,22.5,0.6,0.4,541

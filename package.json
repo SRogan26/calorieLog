@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/SRogan26/calorieLog/issues"
   },
-  "homepage": "https://github.com/SRogan26/calorieLog#readme"
+  "homepage": "https://github.com/SRogan26/calorieLog#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "mysql2": "^2.3.3"
+  }
 }
