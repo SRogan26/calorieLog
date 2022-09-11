@@ -38,3 +38,5 @@ CREATE TABLE log_entries (
     FOREIGN KEY (item_id) REFERENCES items (item_id),
     FOREIGN KEY (person_id) REFERENCES people (person_id)
 );
+-- initial user (me btw)
+INSERT INTO people (name) VALUES ("Stephen");
