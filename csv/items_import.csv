@@ -17,14 +17,14 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 70@1.5 burgers,16,1.5 burgers,70,540,42,0,36,16
 70@1.5 franks,17,1.5 franks,70,360,30,6,16.5,17
 18@1.5 sw eggrolls,18,1.5 sw eggrolls,18,411.75,23.25,40.5,12,18
-"22@half 10 inch pizza w/ pepp, onion, g pepper",19,"half 10 inch pizza w/ pepp, onion, g pepper",22,475,27.5,40,17.5,19
-94@half 6.4oz tuna pack,20,half 6.4oz tuna pack,94,90,0.5,0,20.5,20
-100@half med Dr Pepper,21,half med Dr Pepper,100,115,0,32,0,21
-22@half Pepperoni Calzone,22,half Pepperoni Calzone,22,480,23,47.5,22.5,22
-36@half pound 90/10 beef,23,half pound 90/10 beef,36,399,22,0,45,23
-59@half Quarter Pounder w/ cheese,24,half Quarter Pounder w/ cheese,59,260,13,21,15,24
-2@half Queso bowl,25,half Queso bowl,2,424,34.5,19.5,19.5,25
-23@half serv pizz sauce,26,half serv pizz sauce,23,20,0.5,3.5,0.5,26
+"22@½ 10 inch pizza w/ pepp, onion, g pepper",19,"½ 10 inch pizza w/ pepp, onion, g pepper",22,475,27.5,40,17.5,19
+94@½ 6.4oz tuna pack,20,½ 6.4oz tuna pack,94,90,0.5,0,20.5,20
+100@½ med Dr Pepper,21,½ med Dr Pepper,100,115,0,32,0,21
+22@½ Pepperoni Calzone,22,½ Pepperoni Calzone,22,480,23,47.5,22.5,22
+36@½ pound 90/10 beef,23,½ pound 90/10 beef,36,399,22,0,45,23
+59@½ Quarter Pounder w/ cheese,24,½ Quarter Pounder w/ cheese,59,260,13,21,15,24
+2@½ Queso bowl,25,½ Queso bowl,2,424,34.5,19.5,19.5,25
+23@½ serv pizz sauce,26,½ serv pizz sauce,23,20,0.5,3.5,0.5,26
 "16@10 inch pizza w/ pepp, onion, g pepper",27,"10 inch pizza w/ pepp, onion, g pepper",16,950,55,80,35,27
 "22@10 inch pizza w/ pepp, onion, g pepper",28,"10 inch pizza w/ pepp, onion, g pepper",22,950,55,80,35,28
 59@10 piece nugs,29,10 piece nugs,59,425,25,25,22.5,29
@@ -72,7 +72,7 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 38@3 yeast roll,71,3 yeast roll,38,480,13.5,78,15,71
 "16@3/8 10 inch pizza w/ pepp, onion, g pepper",72,"3/8 10 inch pizza w/ pepp, onion, g pepper",16,356.25,20.625,30,13.125,72
 "22@3/8 10 inch pizza w/ pepp, onion, g pepper",73,"3/8 10 inch pizza w/ pepp, onion, g pepper",22,356.25,20.625,30,13.125,73
-"22@.75 10 inch pizza w/ pepp, onion, g pepper",74,".75 10 inch pizza w/ pepp, onion, g pepper",22,712.5,41.25,60,26.25,74
+"22@¾ 10 inch pizza w/ pepp, onion, g pepper",74,"¾ 10 inch pizza w/ pepp, onion, g pepper",22,712.5,41.25,60,26.25,74
 53@4 cheese pizz,75,4 cheese pizz,53,370,8,54,20,75
 17@4 Chick-n-Minis,76,4 Chick-n-Minis,17,360,13,41,19,76
 96@4 Chicken Soft tacos,77,4 Chicken Soft tacos,96,640,20,64,48,77
@@ -335,7 +335,7 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 79@Medium pizz 8 slice (pepperoni & 3 vg),334,Medium pizz 8 slice (pepperoni & 3 vg),79,1520,56,184,72,334
 32@Medium Steak and Cheese no mayo,335,Medium Steak and Cheese no mayo,32,553,23,52,38,335
 27@medium thin pep w/ 3 veggies,336,medium thin pep w/ 3 veggies,27,1160,64,96,44,336
-"27@Medium thin: pepperoni, jala  half pizz",337,"Medium thin: pepperoni, jala  half pizz",27,600,34,46,22,337
+"27@Medium thin: pepperoni, jala  ½ pizz",337,"Medium thin: pepperoni, jala  ½ pizz",27,600,34,46,22,337
 91@Medium Tots,338,Medium Tots,91,360,19,43,3,338
 32@Medium Tuna Salad white,339,Medium Tuna Salad white,32,910,57,61,39,339
 60@Mexican Food,340,Mexican Food,60,400,20,50,15,340
@@ -345,7 +345,7 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 33@Miso glaze beef bowl,344,Miso glaze beef bowl,33,330,17,17,26,344
 33@Mojo Shrimp,345,Mojo Shrimp,33,410,23,20,33,345
 50@Mozz 1 serv,346,Mozz 1 serv,50,90,6,2,7,346
-50@Mozz half serv,347,Mozz half serv,50,45,3,1,3.5,347
+50@Mozz ½ serv,347,Mozz ½ serv,50,45,3,1,3.5,347
 6@Multi grain bread 2 slice,348,Multi grain bread 2 slice,6,180,3,30,8,348
 28@nacho cheese,349,nacho cheese,28,260,13,31,4,349
 33@Naked Bison burger,350,Naked Bison burger,33,400,26,21,24,350
@@ -388,7 +388,7 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 26@PEPPERONI Thin crust 2 piece,387,PEPPERONI Thin crust 2 piece,26,375,18.75,35,17.5,387
 26@Pepperoni Thin crust half,388,Pepperoni Thin crust half,26,750,37.5,70,35,388
 43@Pepps 1 serving,389,Pepps 1 serving,43,150,14,0,5,389
-43@Pepps half serving,390,Pepps half serving,43,75,7,0,2.5,390
+43@Pepps ½ serving,390,Pepps ½ serving,43,75,7,0,2.5,390
 33@Philly-ish,391,Philly-ish,33,520,32,23,34,391
 98@piece of turkey,392,piece of turkey,98,50,1,0,11,392
 13@pintos 16oz,393,pintos 16oz,13,315,0,59.5,21,393
@@ -408,8 +408,8 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 91@Quarter pound double cheeseburger,407,Quarter pound double cheeseburger,91,570,34,34,31,407
 79@Quepapas,408,Quepapas,79,540,27,57,12,408
 74@Raspberry pop,409,Raspberry pop,74,45,0,11,0,409
-6@Real mayonnaise (.25 tbsp),410,Real mayonnaise (.25 tbsp),6,25,2.75,0,0,410
-6@Real mayonnaise (.75 tbsp),411,Real mayonnaise (.75 tbsp),6,75,8.25,0,0,411
+6@Real mayonnaise (¼ tbsp),410,Real mayonnaise (¼ tbsp),6,25,2.75,0,0,410
+6@Real mayonnaise (¾ tbsp),411,Real mayonnaise (¾ tbsp),6,75,8.25,0,0,411
 80@Red Beans and Rice regular,412,Red Beans and Rice regular,80,247,16,22,8,412
 104@reg order seasoned fries,413,reg order seasoned fries,104,390,17,53,7,413
 26@Rising Crust Pepperoni 1 slice,414,Rising Crust Pepperoni 1 slice,26,300,11,37,15,414
@@ -439,7 +439,7 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 73@seasoned rice,438,seasoned rice,73,310,9,52,6,438
 33@Sesame Ginger Chicken Noodle,439,Sesame Ginger Chicken Noodle,33,430,11,49,29,439
 55@Shoyu Style Ramen,440,Shoyu Style Ramen,55,380,8,58,17,440
-6@shredd mexican cheese half cup,441,shredd mexican cheese half cup,6,220,18,0,12,441
+6@shredd mexican cheese ½ cup,441,shredd mexican cheese ½ cup,6,220,18,0,12,441
 33@Shrimp Andouille,442,Shrimp Andouille,33,520,9,67,37,442
 6@sicilian orange greek yogis,443,sicilian orange greek yogis,6,140,0,20,15,443
 18@side caesar salad,444,side caesar salad,18,260,22,14,3,444
@@ -469,7 +469,7 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 59@Spicy Crispy Chicken Sandwich,468,Spicy Crispy Chicken Sandwich,59,530,26,47,27,468
 66@spicy jerky 1oz,469,spicy jerky 1oz,66,90,2,2,17,469
 59@Spicy McChicken,470,Spicy McChicken,59,400,21,38,14,470
-39@Standard half seving (27 pieces),471,Standard half seving (27 pieces),39,70,2.5,10,1.5,471
+39@Standard ½ seving (27 pieces),471,Standard ½ seving (27 pieces),39,70,2.5,10,1.5,471
 33@Steak peppercorn,472,Steak peppercorn,33,490,25,37,29,472
 73@Steamed Seasonal veg,473,Steamed Seasonal veg,73,130,11,10,2,473
 6@Strawbanana lowfat yogis,474,Strawbanana lowfat yogis,6,170,1.5,32,9,474
@@ -488,7 +488,7 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 6@strawcream lowfat yogis,487,strawcream lowfat yogis,6,180,1.5,33,9,487
 98@stuffing,488,stuffing,98,400,20,50,10,488
 53@supreme pizz,489,supreme pizz,53,350,8,52,17,489
-26@Supreme Thin crust .25,490,Supreme Thin crust .25,26,362.5,17.5,36.25,16.25,490
+26@Supreme Thin crust ¼,490,Supreme Thin crust ¼,26,362.5,17.5,36.25,16.25,490
 26@Supreme Thin crust 2 piece,491,Supreme Thin crust 2 piece,26,362.5,17.5,36.25,16.25,491
 26@Supreme Thin crust 3 piece,492,Supreme Thin crust 3 piece,26,543.75,26.25,54.375,24.375,492
 26@Supreme Thin crust half,493,Supreme Thin crust half,26,725,35,72.5,32.5,493
@@ -514,8 +514,8 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 67@Triple Zero Mixed Berry,513,Triple Zero Mixed Berry,67,100,0,10,15,513
 67@Triple Zero Vanilla,514,Triple Zero Vanilla,67,100,0,10,15,514
 33@Truffled Mushroom Steak,515,Truffled Mushroom Steak,33,460,17,47,31,515
-94@Tuna (.25 of family pack),516,Tuna (.25 of family pack),94,70,0.4375,0.875,16.625,516
-94@Tuna (.75 of family pack),517,Tuna (.75 of family pack),94,210,1.3125,2.625,49.875,517
+94@Tuna (¼ of family pack),516,Tuna (¼ of family pack),94,70,0.4375,0.875,16.625,516
+94@Tuna (¾ of family pack),517,Tuna (¾ of family pack),94,210,1.3125,2.625,49.875,517
 81@tuna salad and swiss half size,518,tuna salad and swiss half size,81,370,16,39,17,518
 98@turkey cheese sandwich on rye,519,turkey cheese sandwich on rye,98,290,10,32,22,519
 33@Turkey Meatloaf+broccoli&mashed,520,Turkey Meatloaf+broccoli&mashed,33,450,28,24,36,520
@@ -540,3 +540,7 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 33@Whitefish cake,539,Whitefish cake,33,480,25,44,19,539
 38@yeast roll,540,yeast roll,38,160,4.5,26,5,540
 38@Zing sauce,541,Zing sauce,38,229,22.5,0.6,0.4,541
+106@3 egg omelette w cheese,542,3 egg omelette w cheese,106,560,45,4,37,542
+106@blt,543,blt,106,395,20,37,16,543
+106@hasbrowns,544,hasbrowns,106,280,18,28,3,544
+106@onion rings,545,onion rings,106,531,30,60,7,545
