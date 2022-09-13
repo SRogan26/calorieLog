@@ -1,4 +1,4 @@
--- use LEFT JOIN to show brand names from barnds table on items
+-- use LEFT JOIN to show brand names from brands table on items
 SELECT
 items.item_id, 
 brands.name AS Parent, 
