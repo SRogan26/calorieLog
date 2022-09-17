@@ -1,7 +1,7 @@
 const express = require("express");
 const fav = require("serve-favicon");
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 const router = require('./Router/router');
 
 app.use(express.json());
