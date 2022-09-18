@@ -4,7 +4,7 @@ const {getUsers, createUser, deleteUser} = require('./controllers/usersCont');
 
 router.get('/', async (req, res)=> {
     const userList = await getUsers();
-    res.status(200).json(userList);
+    res.json({data: userList});
 });
 
 router.post('/', async (req, res)=> {
