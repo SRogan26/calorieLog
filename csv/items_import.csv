@@ -27,7 +27,7 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 23@½ serv pizz sauce,26,½ serv pizz sauce,23,20,0.5,3.5,0.5,26
 "16@10 inch pizza w/ pepp, onion, g pepper",27,"10 inch pizza w/ pepp, onion, g pepper",16,950,55,80,35,27
 "22@10 inch pizza w/ pepp, onion, g pepper",28,"10 inch pizza w/ pepp, onion, g pepper",22,950,55,80,35,28
-59@10 piece nugs,29,10 piece nugs,59,410,23,26,26,29
+59@10 piece nugs,29,10 piece nugs,59,425,25,25,22.5,29
 104@10 wings (10 original,30,10 wings (10 original,104,845,40,70,45,30
 17@12 breaded nugs,31,12 breaded nugs,17,380,17,16,40,31
 17@12 grilled nugs,32,12 grilled nugs,17,200,4.5,2,38,32
@@ -544,3 +544,5 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 106@blt,543,blt,106,395,20,37,16,543
 106@hasbrowns,544,hasbrowns,106,280,18,28,3,544
 106@onion rings,545,onion rings,106,531,30,60,7,545
+"59@Sausage,egg biscuit",546,"Sausage,egg biscuit",59,530,35,38,17,546
+57@Tropical Punch x2,57,Tropical Punch x2,57,90,0,24,0,57

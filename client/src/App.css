@@ -1,4 +1,22 @@
 .App {
   text-align: center;
   color:azure;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin:0;
+}
+.userList{
+  list-style: none;
+  padding: 10px;
+  color: rgb(251, 158, 135);
+  text-decoration: underline;
+  background-color: rgb(1, 10, 10);
+  width: 50%;
+}
+.user:hover{
+  color:aquamarine;
+  font-weight: bolder;
+  margin:0;
 }

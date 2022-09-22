@@ -1,17 +1,25 @@
+import { useState, useEffect } from 'react';
 import './App.css';
-
-function fetchUsers (){
-  fetch("http://localhost:3001/api/users")
-  .then(res => res.json())
-  .then(users => console.log(users))
-}
+import UsersList from './components/users';
 
 function App() {
+
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3001/api/users")
+      .then(res => res.json())
+      .then(userList => {
+        setUsers(userList.data)
+      })
+      .catch(err => console.log(err))
+  }, []);
+
   return (
-    <div className="App">
-     <h1>What Up Yo</h1>
-     <h3>Deez</h3>
-     <button onClick={() => fetchUsers()}>Button</button>
+    <div className="App" >
+      <h1>Welcome to Your Calorie Log</h1>
+      <h2>Who Is It?</h2>
+      {users.length > 0 && <UsersList userList={users} />}
     </div>
   );
 }
