@@ -7,7 +7,7 @@ function UsersList(props) {
             {props.userList.map(user => {
                 return (
                     <li className="user" key={user.person_id}>
-                        <Link to={`/home`}>
+                        <Link to={`/home/${user.person_id}`}>
                             {user.name}
                             </Link>
                     </li>

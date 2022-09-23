@@ -1,8 +1,11 @@
+import { useParams } from "react-router-dom"
+
 export default function Home() {
-    const user = 'user'
+    const { id } = useParams();
+
     return (
         <div>
-            Hello, {user}!
+            Hello, User {id}!
         </div>
     )
 }
