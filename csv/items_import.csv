@@ -545,4 +545,5 @@ item_brand_Id,ITEM_ID,ITEM,BRAND_ID_FK,Cal,Fat,Carb,Protein,ID_REF
 106@hasbrowns,544,hasbrowns,106,280,18,28,3,544
 106@onion rings,545,onion rings,106,531,30,60,7,545
 "59@Sausage,egg biscuit",546,"Sausage,egg biscuit",59,530,35,38,17,546
-57@Tropical Punch x2,57,Tropical Punch x2,57,90,0,24,0,57
+57@Tropical Punch x2,547,Tropical Punch x2,57,90,0,24,0,547
+33@Tex Mex Grilled Chicken,548,Tex Mex Grilled Chicken,33,520,16,46,45,548

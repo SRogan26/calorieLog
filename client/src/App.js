@@ -1,27 +1,21 @@
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import UsersList from './components/users';
+import Landing from './pages/landing';
+import Home from './pages/home';
 
 function App() {
-
-  const [users, setUsers] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3001/api/users")
-      .then(res => res.json())
-      .then(userList => {
-        setUsers(userList.data)
-      })
-      .catch(err => console.log(err))
-  }, []);
-
   return (
-    <div className="App" >
-      <h1>Welcome to Your Calorie Log</h1>
-      <h2>Who Is It?</h2>
-      {users.length > 0 && <UsersList userList={users} />}
-    </div>
-  );
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route exact path="/" element={<Landing />}/>
+          <Route path="/home" element={<Home />}/>
+        </Routes>
+      </div>
+    </Router>
+  )
+
 }
 
 export default App;
