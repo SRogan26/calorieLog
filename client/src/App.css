@@ -15,6 +15,14 @@
   background-color: rgb(1, 10, 10);
   width: 50%;
 }
+a{
+  text-decoration: none; 
+  display:flex;
+  justify-content: center;
+}
+a:visited{
+  color: inherit;
+}
 .user:hover{
   color:aquamarine;
   font-weight: bolder;

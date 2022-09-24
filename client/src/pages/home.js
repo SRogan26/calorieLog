@@ -1,11 +1,12 @@
-import { useParams } from "react-router-dom"
+import { useContext } from "react"
+import { userContext } from '../components/userContext'
 
 export default function Home() {
-    const { id } = useParams();
+    const [activeUser] = useContext(userContext)
 
     return (
         <div>
-            Hello, User {id}!
+            User {activeUser.id}! Hello, {activeUser.name}!
         </div>
     )
 }
