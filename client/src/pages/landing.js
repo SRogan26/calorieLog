@@ -17,8 +17,6 @@ function Landing () {
   
     return (
       <div className="App" >
-        <h1>Welcome to Your Calorie Log</h1>
-        <h2>Who Is It?</h2>
         {users.length > 0 && <UsersList userList={users} />}
         {activeUser.id && <div>Current User: #{activeUser.id}, {activeUser.name}</div>}
       </div>

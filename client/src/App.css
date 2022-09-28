@@ -13,7 +13,20 @@
   color: rgb(251, 158, 135);
   text-decoration: underline;
   background-color: rgb(1, 10, 10);
-  width: 50%;
+  width: 100%;
+}
+.who:hover{
+  text-decoration: underline;
+  color:aquamarine;
+  cursor: pointer;
+}
+.navbar{
+  margin:0;
+  display:flex;
+  background-color: darkgoldenrod;
+  align-items: center;
+  width:100%;
+  justify-content: space-around;
 }
 a{
   text-decoration: none; 
