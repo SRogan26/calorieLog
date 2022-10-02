@@ -7,6 +7,25 @@
   padding:0;
   margin:0;
 }
+.dashboard{
+  width:100vw;
+  display: grid;
+  grid-template-areas: 
+  ".. select display .."
+  ".. select display ..";
+  grid-template-columns: 1fr 30vw minmax(40vw,50vw) 1fr;
+  gap: 1rem;
+}
+.itemsInputArea{
+  margin: 2px;
+  grid-area: select;
+  display: flex;
+  flex-direction: column;
+}
+.item-display{
+  grid-area: display;
+  min-width: 40%;
+}
 .userList{
   list-style: none;
   padding: 10px;

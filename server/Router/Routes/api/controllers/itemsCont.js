@@ -7,7 +7,12 @@ const con = mysql.createConnection({
     database: 'my_calories_db'
 }).promise();
 
-const getItems = async (brand_id) => {
+const getItem = async (id) => {
+    const item = await con.query('SELECT * FROM items WHERE item_id = (?)', [id]);
+    return item[0];
+}
+
+const getBrandItems = async (brand_id) => {
     const itemsList = await con.query(
     `SELECT
     items.item_id, 
@@ -40,4 +45,4 @@ const createItem = async (item) => {
     );    
 }
 
-module.exports = {getItems, createItem}
+module.exports = {getItem, getBrandItems, createItem}
