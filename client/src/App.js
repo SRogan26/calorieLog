@@ -13,11 +13,12 @@ function App() {
     <Router>
       <div className="App">
         <userContext.Provider value={[activeUser, setActiveUser]}>
-        <Navbar></Navbar>
+        <Navbar />
           <Routes>
             <Route exact path="/" element={<Landing />} />
             <Route path="/home" element={<Home />} />
           </Routes>
+        {activeUser.id && <div id="navigator">This is the navbar</div>}
         </userContext.Provider>
         
       </div>

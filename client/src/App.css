@@ -1,19 +1,31 @@
 .App {
   text-align: center;
   color:azure;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
+  display:grid;
+  grid-template-areas: 
+  "head   head   head    head" 
+  "nav    body   body    ...." 
+  "nav    body   body    ...." ;
+  grid-template-rows: .25fr 4fr .75fr;
+  grid-template-columns: minmax(150px, 1.5fr) 2.5fr 2.5fr .5fr;
   padding:0;
   margin:0;
+  height:100%;
+  width: 100%;
+}
+#navigator{
+  grid-area:nav;
+  height:100%;
+  background-color: darkgoldenrod;
 }
 .dashboard{
+  grid-area: body;
   width:100vw;
   display: grid;
   grid-template-areas: 
-  ".. select display .."
-  ".. select display ..";
-  grid-template-columns: 1fr 30vw minmax(40vw,50vw) 1fr;
+  ".. select display .. .."
+  ".. select display .. ..";
+  grid-template-columns: 1fr 30vw minmax(40vw,50vw) 1fr 1fr;
   gap: 1rem;
 }
 .itemsInputArea{
@@ -33,6 +45,7 @@
   text-decoration: underline;
   background-color: rgb(1, 10, 10);
   width: 100%;
+  margin-left:25vw;
 }
 .who:hover{
   text-decoration: underline;
@@ -40,11 +53,12 @@
   cursor: pointer;
 }
 .navbar{
+  grid-area: head;
   margin:0;
   display:flex;
   background-color: darkgoldenrod;
   align-items: center;
-  width:100%;
+  min-width:100%;
   justify-content: space-around;
 }
 a{
