@@ -1,12 +1,13 @@
 import { useContext } from "react"
 import { userContext } from "./userContext"
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [activeUser] =useContext(userContext);
     return (
-        <div className="navbar">
-            <h1>Welcome to Your Calorie Log</h1>
-            {activeUser.name && <div className="who">Hello, {activeUser.name}</div>}
+        <div id="navigator">
+        <Link to={`/home`}>HOME</Link>
+        <Link to={`/add`}>ADD TO LOG</Link>
         </div>
     )
 }

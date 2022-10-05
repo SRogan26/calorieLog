@@ -52,7 +52,7 @@
   color:aquamarine;
   cursor: pointer;
 }
-.navbar{
+.title-bar{
   grid-area: head;
   margin:0;
   display:flex;
@@ -60,6 +60,9 @@
   align-items: center;
   min-width:100%;
   justify-content: space-around;
+}
+.logEntry{
+  width:max-content;
 }
 a{
   text-decoration: none; 
@@ -69,7 +72,7 @@ a{
 a:visited{
   color: inherit;
 }
-.user:hover{
+a:hover{
   color:aquamarine;
   font-weight: bolder;
   margin:0;

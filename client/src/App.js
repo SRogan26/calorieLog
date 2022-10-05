@@ -4,6 +4,8 @@ import './App.css';
 import Landing from './pages/landing';
 import Home from './pages/home';
 import { userContext } from './components/userContext';
+import TitleBar from './components/titleBar';
+import AddItem from './pages/addToLog'
 import Navbar from './components/navbar';
 
 function App() {
@@ -13,12 +15,13 @@ function App() {
     <Router>
       <div className="App">
         <userContext.Provider value={[activeUser, setActiveUser]}>
-        <Navbar />
+        <TitleBar />
           <Routes>
             <Route exact path="/" element={<Landing />} />
             <Route path="/home" element={<Home />} />
+            <Route path="/add" element={<AddItem />} />
           </Routes>
-        {activeUser.id && <div id="navigator">This is the navbar</div>}
+        {activeUser.id && <Navbar />}
         </userContext.Provider>
         
       </div>
