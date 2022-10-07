@@ -17,7 +17,7 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="dashboard">
+        <div className="home">
             {entryList[0] && <EntryList entries={entryList}/>}
         </div>
     )

@@ -1,12 +1,17 @@
-import { useContext } from "react"
-import { userContext } from "./userContext"
+import { userContext } from "./userContext";
+import { useContext } from "react";
+import { Link } from 'react-router-dom';
 
 export default function TitleBar() {
-    const [activeUser] =useContext(userContext);
+    const [activeUser, setActiveUser] = useContext(userContext);
     return (
         <div className="title-bar">
-            <h1>Welcome to Your Calorie Log</h1>
-            {activeUser.name && <div className="who">Hello, {activeUser.name}</div>}
+            {activeUser.name &&
+                <div className="who">
+                    <div id="activeUser">Hello, {activeUser.name}</div>
+                    <Link to={`/`} onClick={() => setActiveUser({ id: null, name: null })}>LOG OUT</Link>
+                </div>}
+            <h1 id="welcome">Welcome to Your Calorie Log</h1>
         </div>
     )
 }

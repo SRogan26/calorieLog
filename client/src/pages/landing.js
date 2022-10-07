@@ -14,7 +14,7 @@ function Landing () {
     }, []);
   
     return (
-      <div className="App" >
+      <div className="landing" >
         {users.length > 0 && <UsersList userList={users} />}
       </div>
     );
