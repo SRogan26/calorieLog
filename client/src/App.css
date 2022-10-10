@@ -32,7 +32,7 @@
   grid-template-areas: 
   ".. select display .. "
   ".. select display .. ";
-  grid-template-columns: 1fr 30% minmax(40%,50%) 1fr;
+  grid-template-columns: 1fr 40% minmax(40%,50%) 1fr;
   gap: 1rem;
 }
 .itemsInputArea{
@@ -44,6 +44,9 @@
 .item-display{
   grid-area: display;
   min-width: 40%;
+}
+#date-time{
+  grid-area:select;
 }
 .userList{
   list-style: none;

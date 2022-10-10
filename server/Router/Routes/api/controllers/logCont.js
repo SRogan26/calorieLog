@@ -28,4 +28,9 @@ const getEntriesWithData = async (userId) => {
     return entryList[0];
 };
 
-module.exports = { getEntriesWithData }
+const addEntry = async (entry) => {
+    await con.query('INSERT INTO log_entries (time_log, item_id, person_id) VALUES (?,?,?)',
+    [entry.time, entry.item, entry.user]);
+}
+
+module.exports = { getEntriesWithData, addEntry }

@@ -1,15 +1,20 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { itemContext } from "./itemContext";
 import BrandSelector from "./brandSelect";
 import ItemInput from "./itemInput";
 import ItemDisplay from "./itemDisplay";
+import TimeInput from "./timeInput";
+import { userContext } from "../userContext";
 
 export default function ItemSelection() {
+    const [activeUser] = useContext(userContext);
     const [brandsList, setBrandsList] = useState([]);
     const [itemsList, setItemsList] = useState([]);
     const [selectedBrand, setSelectedBrand] = useState(null);
     const [selectedItemId, setSelectedItemId] = useState(null);
     const [selectedItemObj, setSelectedItemObj] = useState({});
+    const [date, setDate] = useState(null);
+    const [time, setTime] = useState(null);
 
     //gets list of all brands
     useEffect(() => {
@@ -41,11 +46,35 @@ export default function ItemSelection() {
             .catch(err => console.log(err))
     }, [selectedItemId])
 
+    const handleSubmit = () => {
+        const options = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body:JSON.stringify({
+                "entry": {
+                 "time": `${date} ${time}`,
+                 "item": selectedItemId,
+                 "user":  activeUser.id
+                }
+             })
+        }
+        fetch("http://localhost:3001/api/entries/", options)
+            .then(res => res.json())
+            .then(result => {
+                console.log(result)
+            })
+            .catch(err => console.log(err))
+    }
+
     return (
-        <itemContext.Provider value={{ selectedBrand, setSelectedBrand, selectedItemId, setSelectedItemId, setSelectedItemObj }}>
+        <itemContext.Provider value={{ selectedBrand, setSelectedBrand, selectedItemId, setSelectedItemId, setSelectedItemObj, date, setDate, time ,setTime}}>
             <div className="itemsInputArea">
                 {brandsList.length && <BrandSelector brands={brandsList} />}
                 {itemsList && itemsList.length > 0 && <ItemInput items={itemsList} />}
+                {selectedItemObj.name && <TimeInput/>}
+                {date && time && <button onClick={() => handleSubmit()}>Add Log Entry?</button>}
             </div>
             <div className="item-display">
             {selectedItemObj.name && <ItemDisplay item={selectedItemObj} />}
