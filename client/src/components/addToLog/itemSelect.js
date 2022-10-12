@@ -15,7 +15,15 @@ export default function ItemSelection() {
     const [selectedItemObj, setSelectedItemObj] = useState({});
     const [date, setDate] = useState(null);
     const [time, setTime] = useState(null);
-
+    
+    const resetSelections = () => {
+        setItemsList([])
+        setSelectedBrand(null);
+        setSelectedItemId(null);
+        setSelectedItemObj({});
+        setDate(null);
+        setTime(null);
+    }
     //gets list of all brands
     useEffect(() => {
         fetch("http://localhost:3001/api/brands")
@@ -63,7 +71,10 @@ export default function ItemSelection() {
         fetch("http://localhost:3001/api/entries/", options)
             .then(res => res.json())
             .then(result => {
-                console.log(result)
+                const brandInput = document.getElementById('brand-selector')
+                alert(`${brandInput.value} ${selectedItemObj.name} added to ${activeUser.name}'s calorie log: ${result.time}`)
+                resetSelections();
+                brandInput.value = null;
             })
             .catch(err => console.log(err))
     }
