@@ -1,5 +1,6 @@
 const express = require("express");
 const fav = require("serve-favicon");
+const db = require('./models');
 const app = express();
 const PORT = 3001;
 const router = require('./Router/router');
@@ -13,6 +14,9 @@ app.use(router);
 app.use(express.static('./public'));
 
 
-app.listen(PORT, () => {
-    console.log(`${PORT} is listeneing`);
+db.sequelize.sync({ force: false }).then(() => {
+    // console.log(db)
+    app.listen(PORT, () => {
+        console.log(`${PORT} listening........`)
+    });
 })

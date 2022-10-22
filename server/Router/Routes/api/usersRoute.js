@@ -12,8 +12,8 @@ router.post('/', async (req, res)=> {
     res.status(200).json({"message": `${req.body.name} added as a user!`});
 });
 
-router.delete('/', async (req, res) => {
-    await deleteUser(req.body.id);
+router.delete('/:id', async (req, res) => {
+    await deleteUser(req.params.id);
     res.status(200).json({"message": `User deleted!`});
 })
 module.exports = router;
