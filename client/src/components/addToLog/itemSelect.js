@@ -49,7 +49,7 @@ export default function ItemSelection() {
         fetch("http://localhost:3001/api/items/" + selectedItemId)
             .then(res => res.json())
             .then(result => {
-                setSelectedItemObj(result[0])
+                setSelectedItemObj(result)
             })
             .catch(err => console.log(err))
     }, [selectedItemId])

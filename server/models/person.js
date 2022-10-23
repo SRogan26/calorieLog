@@ -13,5 +13,10 @@ module.exports = (sequelize, DataTypes) => {
         }, {
             timestamps: false
         });
+        Person.associate = function (models) {
+            Person.hasMany(models.log_entry, {
+                foreignKey: 'person_id'
+            })
+        };
         return Person;
 }

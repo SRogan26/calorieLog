@@ -1,5 +1,5 @@
+const db = require('../../../../models');
 const mysql = require("mysql2");
-
 const con = mysql.createConnection({
     host: 'localhost',
     user: 'root',
@@ -8,41 +8,37 @@ const con = mysql.createConnection({
 }).promise();
 
 const getItem = async (id) => {
-    const item = await con.query('SELECT * FROM items WHERE item_id = (?)', [id]);
-    return item[0];
+    const item = await db.item.findOne({
+        where: {
+            item_id: id
+        }
+    })
+    return item.dataValues;
 }
 
 const getBrandItems = async (brand_id) => {
-    const itemsList = await con.query(
-    `SELECT
-    items.item_id, 
-    brands.name AS Brand, 
-    items.name,
-    items.calories,
-    items.fat,
-    items.carbs,
-    items.protein
-    FROM items LEFT JOIN brands
-    ON items.brand_id = brands.brand_id
-    WHERE items.brand_id = (?)`,
-    [brand_id]);
-    return itemsList[0];
+    const items = await db.item.findAll({
+        where: { brand_id },
+        include: [{
+            model: db.brand,
+            attributes: ['name'],
+            where: { brand_id }
+        }]
+    })
+    const itemsList = items.map(item => item.dataValues)
+    itemsList.forEach(item => item.brand = item.brand.dataValues.name)
+    return itemsList;
 };
 //item as an object with necessary properties
 const createItem = async (item) => {
-    const query = 
-    `INSERT INTO items (name, calories, fat, carbs, protein, brand_id)
-    VALUES (?,?,?,?,?,?)`
-    await con.query(query,
-        [
-            item.name,
-            item.calories,
-            item.fat,
-            item.carbs,
-            item.protein,
-            item.brand_id
-        ]
-    );    
+    await db.item.create({
+        name: item.name,
+        calories: item.calories,
+        fat: item.fat,
+        carbs: item.carbs,
+        protein: item.protein,
+        brand_id: item.brand_id
+    });
 }
 
-module.exports = {getItem, getBrandItems, createItem}
+module.exports = { getItem, getBrandItems, createItem }

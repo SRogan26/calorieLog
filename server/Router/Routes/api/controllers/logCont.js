@@ -1,36 +1,41 @@
-const mysql = require("mysql2");
-
-const con = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'Learn65%Big?',
-    database: 'my_calories_db'
-}).promise();
+const db = require('../../../../models');
 
 const getEntriesWithData = async (userId) => {
-    const entryList = await con.query(`
-    SELECT
-    l.entry_id,
-    l.time_log, 
-    b.name AS Brand, 
-    i.name AS Item,
-    i.calories,
-    i.fat,
-    i.carbs,
-    i.protein
-    FROM log_entries l LEFT JOIN items i
-    ON l.item_id = i.item_id
-    LEFT JOIN brands b
-    ON i.brand_id = b.brand_id
-    WHERE l.person_id = (?)
-    ORDER BY l.time_log;`,
-    [userId]);
-    return entryList[0];
+    const entries = await db.log_entry.findAll({
+        where: { person_id : userId},
+        include: [{
+            model: db.item,
+            attributes: ['name', 'calories', 'fat', 'carbs', 'protein'],            
+            include: [{
+                model: db.brand,
+                attributes: ['name'],
+                
+            }]
+        }],
+        order: [
+            ['time_log', 'ASC']
+        ]
+    })
+    const entryList = entries.map(entry => entry.dataValues)
+    entryList.forEach(entry => {
+        const item = entry.item.dataValues;
+        entry.Brand = item.brand.dataValues.name;
+        entry.Item = item.name;
+        entry.calories = item.calories;
+        entry.fat = item.fat;
+        entry.carbs = item.carbs;
+        entry.protein = item.protein;
+    })
+
+    return entryList;
 };
 
 const addEntry = async (entry) => {
-    await con.query('INSERT INTO log_entries (time_log, item_id, person_id) VALUES (?,?,?)',
-    [entry.time, entry.item, entry.user]);
+    await db.log_entry.create({
+        time_log: entry.time,
+        item_id: entry.item,
+        person_id: entry.user
+    });
 }
 
 module.exports = { getEntriesWithData, addEntry }
