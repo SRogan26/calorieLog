@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const {getBrands, createBrand} = require('./controllers/brandsCont')
+const {getBrands, createAndReturnBrand} = require('./controllers/brandsCont')
 
 router.get('/', async (req, res)=> {
     const brandsList = await getBrands();
@@ -8,8 +8,8 @@ router.get('/', async (req, res)=> {
 });
 
 router.post('/', async (req, res) => {
-    await createBrand(req.body.name);
-    res.json({message: `${req.body.name} brand added`})
+    const newBrand = await createAndReturnBrand(req.body.name);
+    res.json({brand: newBrand})
 })
 
 module.exports = router;

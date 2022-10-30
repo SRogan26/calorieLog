@@ -1,11 +1,4 @@
 const db = require('../../../../models');
-const mysql = require("mysql2");
-const con = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'Learn65%Big?',
-    database: 'my_calories_db'
-}).promise();
 
 const getItem = async (id) => {
     const item = await db.item.findOne({
@@ -30,7 +23,7 @@ const getBrandItems = async (brand_id) => {
     return itemsList;
 };
 //item as an object with necessary properties
-const createItem = async (item) => {
+const createAndReturnItem = async (item) => {
     await db.item.create({
         name: item.name,
         calories: item.calories,
@@ -39,6 +32,10 @@ const createItem = async (item) => {
         protein: item.protein,
         brand_id: item.brand_id
     });
+    const newItem = await db.item.findOne({
+        where: { name:item.name, brand_id: item.brand_id}
+    });
+    return newItem.dataValues;
 }
 
-module.exports = { getItem, getBrandItems, createItem }
+module.exports = { getItem, getBrandItems, createAndReturnItem }

@@ -48,7 +48,8 @@ th, td{
   ".. select display .. "
   ".. select display .. ";
   grid-template-columns: 1fr 40% minmax(40%,50%) 1fr;
-  gap: 1rem;
+  gap: 1rem;  
+  position: relative;
 }
 .itemsInputArea{
   margin: 2px;
@@ -63,6 +64,29 @@ th, td{
 #date-time{
   grid-area:select;
 }
+#new-item-modal{
+  position: absolute;
+  left:0;
+  right: 0;
+  bottom: 20%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.914);
+}
+#modal-x{
+  position: absolute;
+  right:1rem;
+  top:0;
+  border-radius: 1rem;
+  border-color: rgba(246, 8, 8, 0.414);
+  color: inherit;
+  font-size: xx-large;
+  background-color: rgba(246, 8, 8, 0.414);
+}
+.item-form-input{
+  display: flex;
+  justify-content: right;
+  min-width: 100%;
+}
 .userList{
   list-style: none;
   padding: 10px;
@@ -72,7 +96,6 @@ th, td{
   width: 100%;
   margin-left:30vw;
 }
-
 .title-bar{
   grid-area: head;
   margin:0;

@@ -5,6 +5,7 @@ import ItemInput from "./itemInput";
 import ItemDisplay from "./itemDisplay";
 import TimeInput from "./timeInput";
 import { userContext } from "../userContext";
+import AddNewItemForm from "./addNewItem";
 
 export default function ItemSelection() {
     const [activeUser] = useContext(userContext);
@@ -78,9 +79,12 @@ export default function ItemSelection() {
             })
             .catch(err => console.log(err))
     }
-
+    const handleAddNew = () => {
+        const newItemForm = document.getElementById('new-item-modal');
+        newItemForm.style.display = 'block';
+    }
     return (
-        <itemContext.Provider value={{ selectedBrand, setSelectedBrand, selectedItemId, setSelectedItemId, setSelectedItemObj, date, setDate, time ,setTime}}>
+        <itemContext.Provider value={{ selectedBrand, setSelectedBrand, setItemsList, selectedItemId, setSelectedItemId, setSelectedItemObj, date, setDate, time ,setTime}}>
             <div className="itemsInputArea">
                 {brandsList.length && <BrandSelector brands={brandsList} />}
                 {itemsList && itemsList.length > 0 && <ItemInput items={itemsList} />}
@@ -88,6 +92,8 @@ export default function ItemSelection() {
                 {date && time && <button onClick={() => handleSubmit()}>Add Log Entry?</button>}
             </div>
             <div className="item-display">
+            <AddNewItemForm brands={brandsList}/>
+            {!selectedItemObj.name && <button onClick={() => handleAddNew()}>Add New Item?</button>}
             {selectedItemObj.name && <ItemDisplay item={selectedItemObj} />}
             </div>
         </itemContext.Provider>

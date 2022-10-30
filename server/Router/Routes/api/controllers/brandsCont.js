@@ -6,8 +6,14 @@ const getBrands = async () => {
     return brandsList;
 };
 
-const createBrand = async (brandName) => {     
+const createAndReturnBrand = async (brandName) => {     
     await db.brand.create({ name: brandName });
+    const newBrand = await db.brand.findOne({
+        where: {
+            name: brandName
+        }
+    });
+    return newBrand.dataValues;
 }
 
-module.exports = {getBrands, createBrand}
+module.exports = {getBrands, createAndReturnBrand}
